@@ -5,3 +5,29 @@ body {
     background-attachment:fixed;
     background-size:cover;
 }
+
+#header {
+    background-color:#2e2836;
+    color:white;
+    height:60px;
+}
+
+.nav > a {
+    color:white
+}
+
+#hero {
+    font-size: 22px;
+    color:white;
+}
+
+#hero > h1 {
+    font-size:80px;
+}
+
+#cta {
+    background-color: #F92A82;
+    color:white
+}
+
+/** Hex codes: F5FCF3, F92A82, 2E2836**/
