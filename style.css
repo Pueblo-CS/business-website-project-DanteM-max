@@ -41,4 +41,14 @@ a:hover {
     color:#dbe917;
 }
 
+#services {
+    background-color:#dac7f3;
+}
+
+.card {
+    background-color:white;
+   width:fit-content;
+   color: #2e2836;
+}
+
 /** Hex codes: F5FCF3 (light background), F92A82 (accent), 2E2836 (dark background) **/
