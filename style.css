@@ -6,19 +6,25 @@ body {
     background-size:cover;
 }
 
+#header, .nav > a, #hero, #cta, div div {
+    color:white
+}
+
 #header {
     background-color:#2e2836;
-    color:white;
     height:60px;
 }
 
-.nav > a {
-    color:white
+a {
+    text-decoration:none; 
+}
+
+a:hover {
+    text-decoration:underline;
 }
 
 #hero {
     font-size: 22px;
-    color:white;
 }
 
 #hero > h1 {
@@ -26,8 +32,13 @@ body {
 }
 
 #cta {
-    background-color: #F92A82;
-    color:white
+    background-color: #dbe917;
+    color:black
+}
+
+#cta:hover {
+    background-color:black;
+    color:#dbe917;
 }
 
 /** Hex codes: F5FCF3 (light background), F92A82 (accent), 2E2836 (dark background) **/
